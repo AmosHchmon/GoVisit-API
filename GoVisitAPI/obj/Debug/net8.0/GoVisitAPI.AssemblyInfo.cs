@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoVisitAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e545ddc71a5341b3248d391a33f36f5a87bb61be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79accc3fc76937f9743535a6d60a48566894b1f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoVisitAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoVisitAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
