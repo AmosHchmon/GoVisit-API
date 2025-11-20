@@ -17,18 +17,18 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<GoVisitContext>();
+// using (var scope = app.Services.CreateScope())
+// {
+//     var db = scope.ServiceProvider.GetRequiredService<GoVisitContext>();
 
-    db.Database.EnsureDeleted();
-    db.Database.EnsureCreated();
+//     db.Database.EnsureDeleted();
+//     db.Database.EnsureCreated();
 
-    if (!db.PublicOrganizations.Any())
-    {
-        DbSeeder.Seed(db);
-    }
-}
+//     if (!db.PublicOrganizations.Any())
+//     {
+//         DbSeeder.Seed(db);
+//     }
+// }
 
 app.UseSwagger();
 app.UseSwaggerUI();
